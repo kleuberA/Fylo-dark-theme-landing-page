@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="logo-img" src="images/logo.svg"  align="left"></img>
+      <ul class="list-header">
+        <li class="itens-list"><a href="" class="itens-list-links">Features</a></li>
+        <li class="itens-list"><a href="" class="itens-list-links">Team</a></li>
+        <li class="itens-list"><a href="" class="itens-list-links">Sign In</a></li>
+      </ul>
+    </header>
+    <main class="container-main">
+      <div class="introMain">
+        <img class="image-intro" src="images/illustration-intro.png"></img>
+        <h1 class="tituloPrincipal"> All your files in one secure location,<br> accessible anywhere.</h1>
+        <p class="descricaoPrincipal">Fylo stores all your most important files in one secure location.<br> Access them wherever you need, share and collaborate with<br> friends family, and co-workers.</p>
+        <button class="getStart">Get Started</button>
+      </div>
+      <div class="containerGrid">
+        <div class="files">
+          <img class="iconContainerGrid" src="images/icon-access-anywhere.svg"></img>
+          <h1 class="tituloContainerGrid">Access your files, anywhere</h1>
+          <p class="descricaoContainerGrid">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+        </div>
+        <div class="security">
+          <img class="iconContainerGrid" src="images/icon-security.svg"></img>
+          <h1 class="tituloContainerGrid">Security you can trust</h1>
+          <p class="descricaoContainerGrid">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+        </div>
+        <div class="collaboration">
+          <img class="iconContainerGrid" src="images/icon-collaboration.svg"></img>
+          <h1 class="tituloContainerGrid">Real-time collaboration</h1>
+          <p class="descricaoContainerGrid">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+        </div>
+        <div class="store">
+          <img class="iconContainerGrid" src="images/icon-any-file.svg"></img>
+          <h1 class="tituloContainerGrid">Store any type of file</h1>
+          <p class="descricaoContainerGrid">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+        </div>
+      </div>
+      <div class="containerProductiveGrid">
+        <div class="imgProductiveGrid"></div>
+        <div class="StayProductiveGrid">
+          <h1 class="tituloStayProductive">Stay productive, wherever you are</h1>
+          <p class="descricaoStayProductive">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.<br> 
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+          <a class="linkStayProductive" href="">See how Fylo works<img class="iconStayProductive" src="images/icon-arrow.svg"></img></a>
+        </div>
+      </div>
+      <div class="containerCommentsGrid">
+        <div class="primaryComment">
+          <p class="commentDescrition">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          <img class="photoComment" src="images/profile-1.jpg"></img>
+          <span class="commentName">Satish Patel <span class="commentOffice">Founder & CEO, Huddle</span></span>
+        </div>
+        <div class="secondComment">
+          <p class="commentDescrition">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          <img class="photoComment" src="images/profile-2.jpg"></img>
+          <span class="commentName">Bruce McKenzie <span class="commentOffice">Founder & CEO, Huddle</span></span>
+        </div>
+        <div class="thirdComment">
+          <p class="commentDescrition">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          <img class="photoComment" src="images/profile-3.jpg"></img>
+          <span class="commentName">Iva Boyd <span class="commentOffice">Founder & CEO, Huddle</span></span>
+        </div>
+      </div>
+      <div class="containerGetEarlyGrid">
+        <h1 class="tituloGetEarly">Get early access today</h1>
+        <p class="descritionGetEarly">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        <input class="email" required placeholder="email@example.com"></input>
+        <button class="buttonGetStarted">Get Started For Free</button>
+      </div>
+
+    </main>
+    <footer class="footer">
+      <img class="logo-img" src="images/logo.svg" ></img>
+      <div class="containerFooterGrid">
+        <div class="locationFooterGrid">
+          <img class="iconLocation" src="images/icon-location.svg" align="left"></img>
+          <p class="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="contactFooterGrid">
+          <img class="iconPhone" src="images/icon-phone.svg" align="left"></img>
+          <span class="phoneContact">+1-543-123-4567</span>
+          <img class="iconPhone" src="images/icon-email.svg" align="left"></img>
+          <span class="emailContact">example@fylo.com</span>
+        </div>
+        <div class="itensFooterGrid">
+          <span class="itensSiteFooter">About Us</span>
+          <span class="itensSiteFooter">Contact Us</span>
+          <span class="itensSiteFooter">Press</span>
+          <span class="itensSiteFooter">Jobs</span>
+          
+          <span class="itensSiteFooter">Blog</span>
+
+          <span class="itensSiteFooter">Terms</span>
+          <span class="itensSiteFooter">Privacy</span>
+        </div>
+        <div class="socialMediaFooterGrid">
+          <ion-icon class="logo-facebook" name="logo-facebook"></ion-icon>
+          <ion-icon class="logo-twitter" name="logo-twitter"></ion-icon>
+          <ion-icon class="logo-instagram" name="logo-instagram"></ion-icon>
+        </div>
+      </div>
+      <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kleuber Aguiar</a>.
+    </p>
+    </footer>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
